@@ -1,0 +1,6 @@
+# Dev dependencies
+pytest
+pytest-watch
+
+
+# Production dependencies
