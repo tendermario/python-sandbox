@@ -11,9 +11,7 @@ alias makevenv='virtualenv -p python3 .venv'
 # install it first:
 alias getvenv='pip install virtualenv'
 
-# Now enter the virtualenv. Copy this command to your .bashrc
-# or .zshrc to use it from the current directory to enter your
-# virtualenv from now on:
+# Now enter the virtualenv.
 alias venv='source .venv/bin/activate'
 
 # To install a package, add it to the list of dependencies in
@@ -22,4 +20,9 @@ alias venv='source .venv/bin/activate'
 alias pipinstall='pip install -r req.txt; pip freeze > req.txt.lock'
 
 # 🎉 Yay
+
+# Oh, copy these lines to your .bashrc or .zshrc to use them from
+# now on:
+alias venv='source .venv/bin/activate'
+alias pipinstall='pip install -r req.txt; pip freeze > req.txt.lock'
 
