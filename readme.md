@@ -2,7 +2,7 @@
 
 Read through commands.sh, it's basically all you need to get started.
 
-You probably just need to run commands.sh:
+You probably just need to source commands.sh:
 
 ```
 source commands.sh
